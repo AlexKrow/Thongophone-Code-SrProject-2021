@@ -95,7 +95,7 @@ def RPiMain():
     # Pass the selected midi file to the MIDI file decoder
     MidiFileDecoder.MidiFileDecoder(str(midiFile))
     # Stream the selected midi file
-    MidiFileStreamer.MidiStreamer(NoteArray, NoteOnTimeArray, NoteOffTimeArray,NoteOnNumArray, NoteOffNumArray)
+    MidiFileStreamer.MidiStreamer(NoteArray, NoteOnTimeArray, NoteOffTimeArray, NoteOnNumArray)
 
 from subprocess import Popen
 
