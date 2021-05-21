@@ -17,6 +17,8 @@ from MidiFileDecoder import NoteOnNumArray
 # After given amount of sleep time (different per note), send character out to respective
 #  microcontroller
 
+#Author: Alexander Croll
+
 def MidiStreamer(NoteArray, NoteOnTimeArray, NoteOffTimeArray, NoteOnNumArray):
     # counters:
     # NoteOnNumArray
