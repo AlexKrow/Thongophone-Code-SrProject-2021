@@ -10,6 +10,11 @@ from MidiFileDecoder import NoteOffTimeArray
 from MidiFileDecoder import NoteOnNumArray
 from MidiFileDecoder import NoteOffNumArray
 
+# ThongGUI.py:
+# This is the GUI for the Thongophone.
+
+# Author: Deaja Vital
+
 # Use tkinter
 root = tk.Tk()
 
