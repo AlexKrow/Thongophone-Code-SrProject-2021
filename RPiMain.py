@@ -8,12 +8,12 @@ from MidiFileDecoder import NoteOnNumArray
 
 
 # This is the main function for the MidiFileDecoder:
-# It is an endless loop in which:
-# Asks the user for a midi file (by filename)
-# Plays the file
-#   IF NOT FOUND, print an error message and continue
-# After playing is done, loop again
-# LOOP TERMINATES if the user types 'quit'
+# Asks the user for a midifile name to be played, then takes that string and sends it to MidiFileDecoder.py to be decoded.  
+# Next, the arrays from MidiFileDecoder.py are sent to MidiFileStreamer.py to be streamed to the proper Microcontrollers.
+# After song is done playing, program terminates.  
+# Note: RPiMain.py is incorporated into ThongGUI.py
+
+#Author: Alexander Croll
 
 def RPiMain():
     MidiFileName = input("Enter Midi File Name: ")
