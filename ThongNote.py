@@ -1,3 +1,6 @@
+# ThongNote.py:
+# This class takes in midi note numbers and based on that number, returns a single character to MidiFileDecoder.py to be sent to the Microcontrollers.
+
 class ThongNote:
     # empty char for ThongNote.note
     note = ''
