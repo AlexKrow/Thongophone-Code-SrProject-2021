@@ -1,3 +1,8 @@
+//This file is the sketch used on ALL 3 Microcontrollers for the Thongophone.
+//Determines what pin to set to HIGH (solenoid to fire) based on character taken in from the RPi.
+//This sketch works for both live play and midi file play.
+
+//Author: Deaja Vital
 
 // defining solenoid pins
 const int SOL1 = 7;
