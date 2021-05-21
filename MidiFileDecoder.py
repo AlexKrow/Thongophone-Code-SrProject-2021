@@ -4,10 +4,15 @@ from ThongNote import ThongNote
 
 # MidiFileDecoder.py:
 # This function decodes midi messages into useful data for MidiFileStreamer.py
+
+#Input:
+#midi messages from selected midi files
 # Outputs:
 # Array of NoteOn/Off Numbers (used by streamer)
 # Array of Note On/Off times (used by the streamer)
 # Array of characters to be sent to the microcontrollers
+
+#Author: Alexander Croll
 
 # char. array to be sent to microcontrollers
 NoteArray = []
